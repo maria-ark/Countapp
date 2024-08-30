@@ -1,0 +1,49 @@
+body {
+    background-image: url("crystal.jpeg");
+    background-size: cover;
+    font-weight: lighter;
+    font-family: "Rubik Gemstones", system-ui;
+  }
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+#increment-btn {
+    background: #BF6D6Bff;
+}
+
+#save-btn {
+    background: #8BA9F6ff;
+    font-weight: lighter;
+    font-family: "Rubik Gemstones", system-ui;
+}
+#main {
+    display:flex;
+    align-items:center;
+    width:500px;
+    margin:30 30px;
+    justify-content:space-around;
+    flex-direction:column;
+    border:red 20px;
+}
